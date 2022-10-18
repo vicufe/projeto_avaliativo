@@ -56,7 +56,7 @@
         font-size: 14px;
         text-decoration: none;
     }
-    
+
     .card {
         top: 0;
         transform: translateY(50%);
@@ -72,10 +72,19 @@
         height: auto; 
     }
 
-    .card > figure > img {
+    .card > figure > a > img {
         width: 200px; 
-        height: auto;
+        height: 130px;
+        object-fit: cover;
     } 
+
+    .card > figure > a {
+        text-decoration: none;
+        color: rgb(3, 41, 43);
+        font-weight: bold;
+        text-align: center; 
+        font-family: Arial, Helvetica, sans-serif ;       
+    }
 
     .lado {
         display: flex;
@@ -92,7 +101,7 @@
 </style>
 
 </head>
-<body>
+<body> 
     <header>
         <div class="Container">
             <div id="logo">
@@ -127,19 +136,22 @@
 
     <div class="lado">
 
-    
         <div class="card">
-            <figure>  
-                <img src="./produtos de limpeza.jfif" alt="Avatar">
-                <figcaption>Produtos de Limpeza</figcaption>
+            <figure>
+                <a href="https://somostera.com/">
+                    <img src="./produtos de limpeza.jfif" alt="Avatar">
+                    <figcaption>Produtos de Limpeza</figcaption>
+                </a>
             </figure>
         </div>
 
         
         <div class="card">
             <figure>  
-                <img src="./legumes.webp" alt="Avatar">
-                <figcaption>Legumes</figcaption>
+                <a href="https://somostera.com/">
+                    <img src="./legumes.webp" alt="Avatar">
+                    <figcaption>Legumes</figcaption>
+                </a>
             </figure>
         </div>
    
