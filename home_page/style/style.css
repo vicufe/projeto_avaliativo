@@ -85,9 +85,15 @@ footer {
     width: 100vw; 
     height: 50px; 
     position: fixed; 
-    bottom:0; 
+    bottom: 0; 
 }
 
 footer > a {
     text-decoration: none;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;'
 }
