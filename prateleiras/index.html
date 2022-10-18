@@ -4,14 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LVV Brands</title>
+    <title>Lavivi - Supermercado online</title>
 <style>
     *{margin: 0; padding:0;}
     header {background-color: rgb(10, 232, 240); margin: 0; width: 100%;height: 50px;}
     ul {list-style: none;display: flex; margin: 0; align-items: right; text-align: right;float: right;}
     li {margin-right: 10px;float: right;}
-    footer {background-color: black; width: 100%; height: 50px; position: fixed; bottom:0; }
+    footer {background-color: rgb(10, 232, 240); width: 100%; height: 50px; position: fixed; bottom:0; }
      
+    .Container {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 100px;
+    background-color: rgba(10, 232, 240);
+    display: flex;
+    z-index: 2;
+    }
+
+    #logo {
+    position: absolute;
+    left: 3%
+    }
+
+    nav ul li{
+    display: inline-block;
+    margin: 15px;
+    }
+
+    nav > ul {
+    position: absolute;
+    right: 5%;
+    top: 25px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: right;
+    }
+
+    ul > li > a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    }
+    
     .card {top: 0;transform: translateY(50%);
         align-items: left;
         margin: 10px;
@@ -40,15 +77,37 @@
 <body>
 
     <header>
-        <nav>
-            <ul>
-                <li><a href="#">Como funciona</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">Marcas</a></li>
-                <li><a href="#">Prateleiras</a></li>
-            </ul>
-        </nav>
+        <div class="Container">
+            <div id="logo">
+                <a href="https://somostera.com/">
+                    <img src="Logo Lavivi.jpg" alt="logotipo lavivi" width="135px" id="imglogo">
+                </a>    
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="https://somostera.com/">Como Funciona</a></li>
+                    <li><a href="https://somostera.com/">Contato</a></li>
+                    <li><a href="https://somostera.com/">Marcas</a></li>
+                    <li><a href="https://somostera.com/">Prateleiras</a></li>
+                    <li><a href="https://somostera.com/">Entre</a></li>
+                    <li><a href="https://somostera.com/">
+                            <button style="
+                            background: white;
+                            border-radius: 6px;
+                            padding: 8px; 
+                            cursor: pointer; 
+                            color: rgb(10, 232, 240); 
+                            border: none; 
+                            font-size: 16px;"
+                            >Cadastre-se
+                            </button>
+                        </a></li>
+                </ul>
+            
+            </nav>
+        </div>
     </header>
+
     <div class="lado">
 
     
