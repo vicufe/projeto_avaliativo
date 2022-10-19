@@ -24,6 +24,10 @@ body > main {
 
 } 
 
+.produto > main {
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
 .produto > img {
     width: 200px;
     height: 200px;
@@ -34,6 +38,7 @@ body > main {
     margin-top: 130px;
     margin-left: 20px;
     object-fit: cover
+    
 }
 
 footer {
