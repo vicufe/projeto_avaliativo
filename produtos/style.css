@@ -7,6 +7,16 @@ body {
     background-color: rgba(10, 232, 240, 0.195);
 }
 
+body > h2 {
+    margin-top: 100px;
+}
+
+body > img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover
+}
+
 footer {
     background-color: rgb(10, 232, 240); 
     width: 100%; 
