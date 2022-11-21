@@ -36,10 +36,10 @@ body > main {
 }
 
 .produto {
+    font-size: 1em;
     margin-top: 130px;
     margin-left: 20px;
     object-fit: cover
-    
 }
 
 footer {
