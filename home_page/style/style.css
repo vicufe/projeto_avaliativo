@@ -20,7 +20,7 @@
     top: 0%;
     left: 0%;
     width: 100vw;
-    height: 100px;
+    height: 15vh;
     background-color: rgba(10, 232, 240);
     display: flex;
     z-index: 2;
@@ -84,7 +84,7 @@ section {
 footer {
     background-color: rgb(10, 232, 240); 
     width: 100vw; 
-    height: 50px; 
+    height: 7.5vh; 
     position: fixed; 
     bottom: 0; 
 }
